@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">HMA</string>
+    <string name="button_text">Приемы</string>
+    <string name="button2_text">Анализы</string>
+    <string name="button3_text">Процедуры</string>
+    <string name="date_text">Дата</string>
+    <string name="name_text">Имя_врача</string>
+    <string name="description_text">Пояснение_к_записи</string>
+    <string name="tag_name">Терапевт</string>
+    <string name="tag2_text">Прием</string>
+    <string name="button_add">Добавить новую запись</string>
+    <string name="docspec">Специализация врача</string>
+    <string name="medinst">Наименование медицинского учреждения</string>
+    <string name="edit_description">Пояснения к записи</string>
+    <string name="edit_tags">Ключевые слова</string>
+    <string name="deteremember">Дата напоминания</string>
+    <string name="createcard_button">Добавить запись</string>
+</resources>

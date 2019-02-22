@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/head"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:text="Добавление новой записи"
+        tools:ignore="HardcodedText" />
+
+    <EditText
+        android:id="@+id/edit_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/head"
+        android:layout_marginTop="10dp"
+        android:hint="Текущая Дата"
+        android:inputType="date"
+        tools:ignore="Autofill,HardcodedText" />
+
+    <EditText
+        android:id="@+id/edit_docname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below ="@id/edit_date"
+        android:layout_marginTop="10dp"
+        android:hint="ФИО Врача"
+        android:inputType="textPersonName"
+        tools:ignore="Autofill,HardcodedText" />
+
+    <EditText
+        android:id="@+id/edit_docspec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below ="@id/edit_docname"
+        android:layout_marginTop="10dp"
+        android:hint="@string/docspec"
+        android:inputType="textPersonName"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/edit_medinst"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below ="@id/edit_docspec"
+        android:layout_marginTop="10dp"
+        android:hint="@string/medinst"
+        android:inputType="textPersonName"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/edit_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below ="@id/edit_medinst"
+        android:layout_marginTop="10dp"
+        android:hint="@string/edit_description"
+        android:inputType="textMultiLine"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/edit_tags"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below ="@id/edit_description"
+        android:layout_marginTop="10dp"
+        android:hint="@string/edit_tags"
+        android:inputType="textPersonName"
+        tools:ignore="Autofill" />
+
+    <EditText
+        android:id="@+id/edit_dateremember"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below ="@id/edit_tags"
+        android:layout_marginTop="10dp"
+        android:hint="@string/deteremember"
+        android:inputType="date"
+        android:autofillHints="@string/date_text"
+        tools:ignore="UnusedAttribute" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/createcard_button" />
+
+</RelativeLayout>
